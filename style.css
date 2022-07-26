@@ -10,8 +10,31 @@
   min-height: 100vh;
   min-width: 100vw;
   background-color: snow;
+  transition: 0.5s ease;
 }
 
 .dark {
   background-color: black;
+}
+.button {
+  all: unset;
+  border: 2px solid rgb(78, 78, 78);
+  padding: 4px;
+  background-color: snow;
+  transform: scale(2.5);
+  border-radius: 2px;
+  font-family: "Dosis";
+  color: rgb(78, 78, 78);
+}
+
+.button__dark {
+  all: unset;
+  border: 2px solid snow;
+  padding: 4px;
+  transform: scale(2.5);
+  border-radius: 2px;
+  font-family: "Dosis";
+  background-color: rgb(78, 78, 78);
+  color: snow;
+  box-shadow: 0 0 10px yellow;
 }
